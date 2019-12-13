@@ -150,6 +150,7 @@ body {
   font-family: 'Ubuntu', sans-serif;
   color: #5E6164;
   width: 800px;
+  margin: 0 auto;
 }
 h1,
 h2,
@@ -176,6 +177,7 @@ p {
   .container {
     max-width: 500px;
     width: 96%;
+    margin: 0 auto;
   }
 }
 .navbar {
