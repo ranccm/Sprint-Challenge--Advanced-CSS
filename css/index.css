@@ -1,3 +1,16 @@
+@keyframes bounceIn {
+  0% {
+    transform: scale(0.1);
+    opacity: 0;
+  }
+  60% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+  }
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -183,6 +196,7 @@ p {
   font-size: 3.5rem;
   padding-top: 2rem;
   color: #23293B;
+  animation: bounceIn 2s;
 }
 .navbar nav {
   display: flex;
